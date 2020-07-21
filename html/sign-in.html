@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Connexion</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-around">
+            <div class="navbar__signin navbar__left justify-content-start">
+                <a class=" navbar-brand" href="./sign-in.html">
+                    <img src="./img/contact-1293388_640.png" class="navbar__signin__logo d-inline-block align-top" alt="logo" loading="lazy">
+                </a>
+            </div>
+            <div class="navbar__center justify-content-center">
+                <a class="navbar-brand m-0" href="./index.html">
+                    <img src="./img/logo-illustrator copie-1.png" class="navbar__logo" alt="logo" loading="lazy">
+                </a>
+            </div>
+            <div class="navbar__right d-flex justify-content-end">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./list-projets.html">Voir les projets<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./depot-projet.html">Déposer votre projet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sign-in.html">S'identifier</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="form">
+        <form class="container p-3">
+            <h2 class="text-light text-center p-4">Identification</h2>
+            <div class="form-group mb-3">
+                <label class="text-light" for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group mb-3">
+                <label class="text-light" for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label text-light" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-light text-muted mb-3">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer py-5 bg-white ">
+        <button type="button " class="btn btn-warning footer__button text-muted "> <a href="./depot-projet.html" class="text-light">Déposez votre projet</a></button>
+        <div class="footer__bottom">
+            <div class="row align-items-center justify-content-around">
+                <figure class="footer__bottom__left__address d-flex align-items-center col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3">
+                    <img src="./img/logo-illustrator copie-1.png " alt="logo " width="100 ">
+                    <figcaption>74 rue Royale, 59800 Lille </figcaption>
+                </figure>
+                <a class=" text-center text-muted col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3 " href="# ">Mentions Légales</a>
+            </div>
+            <div class="row align-items-center justify-content-around">
+                <a class="col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3 text-center text-muted " href="./list-projets.html">Voir les projets</a>
+                <a class="col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3 text-center text-muted " href="# ">CGU</a>
+            </div>
+            <div class="row align-items-center justify-content-around">
+                <div class="footer__contact mt-5 col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3">
+                    <p class="m-0 text-center text-muted ">Nous contacter :</p>
+                    <p>06.11.84.92.76</p>
+                    <div>
+                        <a href="https://fr.facebook.com "><img class="share__img " src="./img/ico-facebook.png " alt="Facebook " width="20 "></a>
+                        <a href="https://instagram.com "><img class="share__img " src="./img/logo-insta.png " alt="Instagram" width="20 "></a>
+                    </div>
+                </div>
+                <a class=" text-center text-muted col-12 col-sm-6 col-md-4 col-lg-1 d-flex justify-content-center mb-3" href="# ">A propos de Dream&Collect</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

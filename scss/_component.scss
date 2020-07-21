@@ -1,0 +1,135 @@
+.nav-link {
+    font-size: 1rem;
+    @media (min-width: 1025px) {
+        font-size: 1.4rem;
+    }
+}
+
+.navbar {
+    &__signin {
+        &__logo {
+            width: 20px;
+            height: 25px;
+        }
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+    &__logo {
+        width: auto;
+        height: 100px;
+        @media (min-width: 768px) {
+            width: auto;
+            height: 200px;
+        }
+        @media (min-width: 1025px) {
+            width: auto;
+            height: 300px;
+        }
+    }
+}
+
+.carousel-inner {
+    width: 320;
+    display: flex;
+    justify-items: center;
+}
+
+.carousel-item {
+    height: 200px;
+    background: no-repeat contain center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel {
+    &__button {
+        width: auto;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-decoration: none;
+        &__content {
+            background-color: $background-color-pink;
+            border: none;
+            &__link {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.card-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.headline {
+    &__title {
+        font-size: 1.5rem;
+        &__border {
+            width: 10%;
+            border-bottom: 5px solid $border-title-color;
+        }
+    }
+}
+
+.categories {
+    &__title {
+        font-size: 3rem;
+        color: $font-color;
+        &__border {
+            width: 10%;
+            border-bottom: 5px solid $font-color;
+        }
+    }
+    &__icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.projects {
+    &__title {
+        font-size: 1.5rem;
+        &__border {
+            width: 10%;
+            border-bottom: 5px solid $border-title-color;
+        }
+    }
+    &__button {
+        font-size: 1rem;
+        width: auto;
+    }
+    &__bottom {
+        &__button {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            &__content {
+                width: auto;
+                font-size: 1rem;
+            }
+        }
+    }
+    &__comments,
+    &__news,
+    &__return {
+        border: 2px solid $background-color-green;
+    }
+}
+
+.card-text {
+    height: 200px;
+}
+
+.footer {
+    &__button {
+        width: auto;
+        font-size: 1rem;
+    }
+}
