@@ -14,12 +14,12 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-around">
             <div class="navbar__signin navbar__left justify-content-start">
                 <a class=" navbar-brand" href="./sign-in.html">
-                    <img src="./img/contact-1293388_640.png" class="navbar__signin__logo d-inline-block align-top" alt="logo" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri() . "/img/contact-1293388_640.png" ?>" class="navbar__signin__logo d-inline-block align-top" alt="logo" loading="lazy">
                 </a>
             </div>
             <div class="navbar__center justify-content-center">
                 <a class="navbar-brand m-0" href="./index.html">
-                    <img src="./img/logo-illustrator copie-1.png" class="navbar__logo" alt="logo" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri() . "/img/logo-illustrator copie-1.png" ?>" class="navbar__logo" alt="logo" loading="lazy">
                 </a>
             </div>
             <div class="navbar__right d-flex justify-content-end">

@@ -25,7 +25,7 @@ function dreamCollect_scripts(){
 
     // Main CSS : 
 
-    wp_enqueue_style( 'style', get_stylesheet_directory_uri(  ), array('bootstrap','googlefonts'), '1.0.0');
+    wp_enqueue_style( 'style', get_stylesheet_directory_uri(  ) . '/style.css', array(), '1.0.0');
 }
 
 add_action('wp_enqueue_scripts', 'dreamCollect_scripts');
