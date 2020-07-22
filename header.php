@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -13,12 +13,12 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-around">
             <div class="navbar__signin navbar__left justify-content-start">
-                <a class=" navbar-brand" href="./sign-in.html">
+                <a class=" navbar-brand" href="<?php get_home_url() . "/accueil/deposer-votre-projet/"?>">
                     <img src="<?php echo get_template_directory_uri() . "/img/contact-1293388_640.png" ?>" class="navbar__signin__logo d-inline-block align-top" alt="logo" loading="lazy">
                 </a>
             </div>
             <div class="navbar__center justify-content-center">
-                <a class="navbar-brand m-0" href="./index.html">
+                <a class="navbar-brand m-0" href="<?php echo get_home_url()?>">
                     <img src="<?php echo get_template_directory_uri() . "/img/logo-illustrator copie-1.png" ?>" class="navbar__logo" alt="logo" loading="lazy">
                 </a>
             </div>
@@ -30,25 +30,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./list-projets.html">Voir les projets<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?php echo get_home_url() . "/accueil/voir-les-projets/"?>">Voir les projets<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./depot-projet.html">Déposer votre projet</a>
+                        <a class="nav-link" href="<?php echo get_home_url() . "/accueil/deposer-votre-projet/"?>">Déposer votre projet</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./sign-in.html">S'identifier</a>
+                        <a class="nav-link" href="<?php echo get_home_url() . "/accueil/login/"?>">S'identifier</a>
                     </li>
                 </ul>
-                <?php 
-                $args = array(
-                'theme_location' => 'Main Menu',
-                'container' => 'nav',
-                'container_class' => 'main-menu'
-            );
-        
-                wp_nav_menu( $args );
-        
-                ?>
+                
             </div>
     </nav>
 </header>

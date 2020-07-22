@@ -29,3 +29,23 @@ function dreamCollect_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'dreamCollect_scripts');
+
+// Logo
+
+add_theme_support( 'custom-logo' );
+
+function dreamCollect_custom_logo_setup() {
+    $defaults = array(
+    'height'      => 50,
+    'width'       => 100,
+    'flex-height' => true,
+    'flex-width'  => true,
+    'header-text' => array( 'site-title', 'site-description' ),
+    );
+    add_theme_support( 'custom-logo', $defaults );
+   }
+   add_action( 'after_setup_theme', 'dreamCollect_custom_logo_setup' );
+
+
+
+

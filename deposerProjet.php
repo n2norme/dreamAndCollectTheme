@@ -1,49 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/*
+Template Name: Déposer Projet
+*/
+?>
+<?php get_header();?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Déposer un projet</title>
-</head>
-
-<body>
-
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-around">
-            <div class="navbar__signin navbar__left justify-content-start">
-                <a class=" navbar-brand" href="./sign-in.html">
-                    <img src="./img/contact-1293388_640.png" class="navbar__signin__logo d-inline-block align-top" alt="logo" loading="lazy">
-                </a>
-            </div>
-            <div class="navbar__center justify-content-center">
-                <a class="navbar-brand m-0" href="./index.html">
-                    <img src="./img/logo-illustrator copie-1.png" class="navbar__logo" alt="logo" loading="lazy">
-                </a>
-            </div>
-            <div class="navbar__right d-flex justify-content-end">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./list-projets.html">Voir les projets<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./depot-projet.html">Déposer votre projet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./sign-in.html">S'identifier</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="form">
+<div class="form">
         <form class="container">
             <h2 class="text-light text-center p-4">Déposer votre projet</h2>
             <div class="form-row">
@@ -182,36 +144,4 @@
     </form>
     </div>
 
-    <footer class="footer py-5 bg-white ">
-        <div class="footer__bottom">
-            <div class="row align-items-center justify-content-around mr-5">
-                <a class="col text-center text-muted col d-flex justify-content-center" href="# ">A propos de Dream&Collect</a>
-                <div class="col footer__contact col d-flex justify-content-center text-center">
-                    <p class="m-0 text-center text-muted ">Nous contacter :</p>
-                    <a href="mailto:contact@dreamandcollect.fr">contact@dreamandcollect.fr</a>
-                    <div>
-                        <a href="https://fr.facebook.com "><img class="share__img " src="./img/ico-facebook.png " alt="Facebook " width="20 "></a>
-                        <a href="https://instagram.com "><img class="share__img " src="./img/logo-insta.png " alt="Instagram" width="20 "></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex flex-column justify-items-center footer__bottom__center mr-5">
-                <button type="button " class="btn btn-warning footer__button text-muted mb-5">
-                    <a href="./depot-projet.html" class="text-light">Déposez votre projet</a>
-                </button>
-                <a class="col-12 d-flex justify-content-center mb-3 text-center text-muted " href="./list-projets.html">Voir les projets</a>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <a class="text-center text-muted col d-flex justify-content-center" href="# ">Mentions Légales</a>
-                <a class="text-center text-muted col d-flex justify-content-center" href="# ">CGU</a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-
-</body>
-
-</html>
+<?php get_footer();?>
