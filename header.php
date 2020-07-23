@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-center justify-content-around">
             <div class="navbar__signin navbar__left justify-content-start">
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="<?php echo get_home_url() . "/accueil/voir-les-projets/"?>">Voir les projets<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="<?php echo get_home_url() . "/voir-les-projets"?>">Voir les projets<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo get_home_url() . "/accueil/deposer-votre-projet/"?>">Déposer votre projet</a>
